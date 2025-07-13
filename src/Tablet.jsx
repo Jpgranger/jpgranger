@@ -4,8 +4,8 @@ export default function Tablet() {
   const { authenticate } = useAuth();
 
   function handleSubmit(e) {
-    e.preventDefault(); // Prevent page reload
-    authenticate(); // Attempt authentication
+    e.preventDefault(); 
+    authenticate(); 
   }
 
   return (

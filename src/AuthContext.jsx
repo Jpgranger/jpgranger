@@ -8,7 +8,6 @@ export function AuthProvider({ children }) {
   const [token, setToken] = useState(null);
   const [location, setLocation] = useState("GATE");
 
-  // SIGNUP function: register the user and receive a token
   async function signup(username) {
     try {
       const response = await fetch(`${API}/signup`, {
@@ -25,14 +24,13 @@ export function AuthProvider({ children }) {
 
       const data = await response.json();
       setToken(data.token);
-      setLocation("TABLET"); // Move to the tablet page
+      setLocation("TABLET");
     } catch (error) {
       console.error("Signup error:", error);
       alert("Signup failed. Please try again.");
     }
   }
 
-  // AUTHENTICATE function: verify the token
   async function authenticate() {
     if (!token) {
       throw new Error("No token found");
@@ -51,7 +49,7 @@ export function AuthProvider({ children }) {
 
       const data = await response.json();
       console.log("Authenticated:", data);
-      setLocation("TUNNEL"); // Move to the tunnel page
+      setLocation("TUNNEL"); 
     } catch (error) {
       console.error("Authentication error:", error);
       alert("Authentication failed. Your token may be invalid.");
