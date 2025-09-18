@@ -1,39 +1,42 @@
-# Secret Tunnel
+👋 Hi, I’m JP Granger
 
-Your journey has brought you to the base of a rocky mountain. You must **authenticate**
-yourself to the guardians of the secret tunnel before you are **authorized** to pass!
+💻 Software Engineer | ⚡ Fullstack Developer | 🚀 Problem-Solver
 
-A [live demo of the finished project](https://fsa-secret-tunnel.netlify.app/) is available as reference.
+I’m passionate about building scalable applications, solving real-world problems with code, and continuously leveling up my skills. My experience spans JavaScript/TypeScript, React, Node.js, Express, PostgreSQL, and beyond.
 
-## Instructions
+🔨 Tech Stack
 
-Before you start, read the documentation of [this practice API](https://fsa-jwt-practice.herokuapp.com).
+Frontend: React, Vite, Redux, Tailwind, HTML, CSS
 
-### Register the user
+Backend: Node.js, Express, REST APIs, JWT Authentication
 
-1. In `AuthContext`, write and provide a `signup` function which takes in a username to send to the
-   `POST /signup` endpoint on the API. If the request is successful, update `token`
-   in state to the token that the API sends back, and set the location to `"TABLET"`.
-2. Update `<Entrance>` to call `signup` with the user's name when the form is
-   submitted.
+Databases: PostgreSQL, SQL, MongoDB
 
-### Authenticate the user
+Testing: Vitest, Jest, Supertest
 
-3. In `AuthContext`, write and provide an `authenticate` function. If there is
-   no token in state, it should throw an error. Otherwise, it will attempt to
-   `GET /authenticate` on the API. Make sure to attach the token in the request headers!
-   If the request fails, throw an error. If the request succeeds, set the location to `"TUNNEL"`.
-4. Update `<Tablet>` to call `authenticate` when the form is submitted.
+Other Tools: Git/GitHub, Docker, Linux, CI/CD basics
 
-## Extensions
+🚀 Featured Projects
 
-If you finish early, try working on the following extensions:
+📚 Book Buddy – Fullstack app using React + Express + PostgreSQL that allows users to browse, reserve, and return library books with authentication.
+🔗 View Repo
+ | 🌐 Live Demo
 
-- Use [session storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage) to store the token. Then, add a `useEffect` in `AuthContext` to try loading the token from session storage when the app first loads. This lets users skip typing in their credentials even if they refresh the page.
-- Give the user feedback if there are any errors with the requests. Currently, the app
-  just freezes if something goes wrong. Add some conditional text to tell the user what
-  happened e.g. the token was malformed, or they mistyped their username.
+🎵 Jukebox Pro – Music playlist app with user authentication and personalized playlists.
+🔗 View Repo
 
-## Submission
+📂 Filez API – Express + PostgreSQL backend for managing files and folders with relational queries.
+🔗 View Repo
 
-Please submit the link to your public GitHub repository.
+🕹️ Whack-a-Mole – React-based game with interactive state management and animations.
+🔗 View Repo
+
+📫 Let’s Connect
+
+💼 LinkedIn
+
+📧 Email Me
+
+🌐 Portfolio Website
+
+✨ Always learning. Always building.
