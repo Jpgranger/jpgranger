@@ -1,4 +1,4 @@
-👋 Hi, I’m JP Granger
+0👋 Hi, I’m Joseph Granger
 
 💻 Software Engineer | ⚡ Fullstack Developer | 🚀 Problem-Solver
 
@@ -33,10 +33,8 @@ Other Tools: Git/GitHub, Docker, Linux, CI/CD basics
 
 📫 Let’s Connect
 
-💼 LinkedIn
+💼 [LinkedIn](https://www.linkedin.com/in/joepgranger/)
 
-📧 Email Me
-
-🌐 Portfolio Website
+📧 Email Me(joey1027@live.com)
 
 ✨ Always learning. Always building.
