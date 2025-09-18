@@ -18,18 +18,20 @@ Other Tools: Git/GitHub, Docker, Linux, CI/CD basics
 
 🚀 Featured Projects
 
-📚 Book Buddy – Fullstack app using React + Express + PostgreSQL that allows users to browse, reserve, and return library books with authentication.
-🔗 View Repo
- | 🌐 Live Demo
+🗂️ TaskFlow
+ – Productivity & Team Manager
+Kanban-style productivity app with drag-and-drop tasks, secure user accounts, and a REST API backend.
+Built with React, Express, and PostgreSQL.
 
-🎵 Jukebox Pro – Music playlist app with user authentication and personalized playlists.
-🔗 View Repo
+🛒 ShopSmart
+ – E-Commerce Demo Platform
+Full e-commerce system featuring product browsing, shopping cart, checkout, and an admin dashboard.
+Includes JWT authentication, PostgreSQL schema for users/orders/inventory, and responsive design.
 
-📂 Filez API – Express + PostgreSQL backend for managing files and folders with relational queries.
-🔗 View Repo
-
-🕹️ Whack-a-Mole – React-based game with interactive state management and animations.
-🔗 View Repo
+📊 OpsDash
+ – Business Operations Dashboard
+Real-time metrics dashboard inspired by my logistics background, tracking orders/hour, staff scheduling, and workflow efficiency.
+Data visualized with React charts, backend analytics API, and PostgreSQL persistence.
 
 📫 Let’s Connect
 
